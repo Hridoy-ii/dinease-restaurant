@@ -1,0 +1,81 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.env*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+/vendor/
+node_modules/
+
+# Composer artifacts
+composer.lock
+
+# Environment files
+.env
+.env.*    # covers .env.local, .env.testing, etc.
+
+# Logs and databases
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+
+# Cache and session files
+cache/
+tmp/
+storage/framework/cache/*
+storage/logs/*
+storage/debugbar/*
+
+# PHPUnit
+phpunit.xml
+.phpunit.result.cache
+
+# IDE / Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+build/
+dist/
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Coverage reports
+coverage/
+phpcoverage/
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
