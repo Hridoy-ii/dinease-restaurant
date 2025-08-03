@@ -85,15 +85,15 @@ This project combines a modern, responsive frontend with a secure and scalable b
 ---
 
 ## 📂 Project Structure
-restaurant-management/
+restaurant-management/ <br>
+│<br>
+├── client/ # ReactJS frontend <br>
+│ ├── components/ <br>
+│ ├── pages/ <br>
+│ └── ... <br>
 │
-├── client/ # ReactJS frontend
-│ ├── components/
-│ ├── pages/
-│ └── ...
-│
-├── server/ # PHP backend (API endpoints)
-│ ├── routes/
-│ ├── config/
-│ └── ...
-│
+├── server/ # PHP backend (API endpoints) <br>
+│ ├── routes/ <br>
+│ ├── config/ <br>
+│ └── ... <br>
+│ <br>
